@@ -1,0 +1,131 @@
+
+body {
+  background-image: url("/images/bg.jpg");
+  backdrop-filter:blur(6px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.header {
+  /* background-color:  rgb(107, 8, 8);; */
+  padding: 5px;
+  /* font-weight: 900; */
+  color: rgb(176, 46, 46);
+  font-size: 20px;
+  /* text-decoration: underline; */
+  text-align: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+#lgn a{
+  float:right;
+}
+li a , #lgn a{ 
+  font-size: 25px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover,#lgn a:hover {
+  background-color: rgb(107, 8, 8);
+}
+
+.food-items {
+  margin: 2% 5% 2% 5%;
+  /* background-color: rgb(110, 121, 131); */
+  
+}
+
+.food-item-headline{
+  font-size: 36px;
+  text-align: center;
+  color: rgb(162, 7, 7);
+}
+
+.flex-container {
+  display: flex;
+  /* display: inline-flex; */
+  /* background-color: rgb(100, 111, 121); */
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.flex-container > div {
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.4);
+  background-color: #ede7e7;
+  margin: 15px;
+  padding: 25px;
+  font-size: 20px;
+  border-radius: 25px;
+}
+.flex-container>div:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+footer{
+  
+  padding: 10px 10px;
+  text-align:center;
+  background-color: #333;
+  color:white;
+}
+
+/* orderform{
+  background-color:rgb(92, 92, 8);
+} */
+
+#About{
+  /* background-color: rgb(231, 234, 189); */
+  color:white;
+  width:300px;
+  margin-left: 450px;
+  margin-bottom: 20px;
+  padding: 25px;
+  font-size: 1.5em;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#About:hover{
+
+  transform:scale(1.1);
+}
+
+button{
+  font-size: 15px;
+  width:100px;
+  height:30px;
+  border-radius: 25px;
+  border-color: brown;
+}
+
+button:hover{
+  background-color:rgb(107, 8, 8);
+  color:white;
+  transform:scale(1.2);
+  box-shadow: 0 4x 8px 0 #00FFFF,0 6px 20px 0 rgb(107, 8, 8);
+}
+.orderform>label{
+color:blue;
+}
